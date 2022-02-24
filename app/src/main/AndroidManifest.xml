@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.risingproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".config.ApplicationClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.RisingProject"
+        tools:replace="android:theme">
+        <activity android:name=".src.main.MyActivity"></activity>
+        <activity android:name=".src.main.basket.BasketActivity" />
+        <activity android:name=".src.main.detail.ProductActivity" />
+        <activity android:name=".src.main.detail.DetailActivity" />
+
+        <service
+            android:name=".src.main.popularity.BackgroundTimerService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".src.login.kakaosignup.KakaoSignup" />
+        <activity android:name=".src.login.kakaosignup.KakaoAddInfo" />
+        <activity android:name=".src.login.emailsignup.EmailSignup" />
+        <activity android:name=".src.login.emailsignin.EmailSignin" />
+        <activity android:name=".src.login.LoginActivity" />
+        <activity
+            android:name=".src.splash.SplashActivity"
+            android:screenOrientation="portrait" >
+
+            <!-- 먼저 실행할 액티비티에 이 구문을 붙이면 된다. 로딩 화면이나 로그인 화면에 붙일 예정! -->
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- 여기까지 -->
+        </activity>
+        <activity
+            android:name=".src.main.MainActivity"
+            android:screenOrientation="portrait">
+
+
+        </activity>
+    </application>
+
+</manifest>

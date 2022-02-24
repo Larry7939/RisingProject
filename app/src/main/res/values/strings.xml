@@ -1,0 +1,112 @@
+<resources>
+    <string name="app_name">오늘의집</string>
+    <string name="kakao_app_key">49fedf62ef2e032b34dfbabea9bd9b65</string>
+    <string name="jwt_token_header">X-ACCESS-TOKEN</string>
+    <string name="sp_name">RISING_PROJECT_APP</string>
+    <!--splash-->
+    <string name="splash_text">오늘 시작하는 인테리어</string>
+    <!--login-->
+    <string name="login_intro1">지금 가입하면</string>
+    <string name="login_intro2">최대 10만원</string>
+    <string name="login_intro3">쿠폰 증정!</string>
+    <string name="login_ballon">3초만에 빠른 회원가입</string>
+    <string name="login_kakao">카카오톡으로 계속하기</string>
+    <string name="login_or">또는</string>
+    <string name="login_email_signin">이메일로 로그인</string>
+    <string name="login_email_signup">이메일로 가입</string>
+    <string name="login_non_member">비회원 주문 조회하기</string>
+    <string name="login_token_jwt">J-ACCESS-TOKEN</string>
+    <!--email_signup-->
+    <string name="email_signup_title">이메일로 회원가입</string>
+    <string name="email_signup_ifexpert">인테리어 전문가이시다면   </string>
+    <string name="email_signup_email">이메일</string>
+    <string name="email_signup_email_warning">이메일 형식이 올바르지 않습니다.</string>
+    <string name="email_signup_verify">이메일 인증하기</string>
+    <string name="email_signup_password">비밀번호</string>
+    <string name="email_signup_password_warning">비밀번호는 영문, 숫자를 포함하여 8자 이상이어야 합니다.</string>
+    <string name="email_signup_password_confirm">비밀번호 확인</string>
+    <string name="email_signup_password_confirm_warning">확인을 위해 비밀번호를 한 번 더 입력해주세요.</string>
+    <string name="email_signup_nickname">별명(중복불가)</string>
+    <string name="email_signup_nicknamewarning">별명을 2~15자 내로 입력해주세요.</string>
+    <string name="email_signup_terms">약관 동의</string>
+    <string name="email_signup_agree_all">전체 동의</string>
+    <string name="email_signup_term1">만 14세 이상입니다.</string>
+    <string name="email_signup_essential">(필수)</string>
+    <string name="email_signup_term2">이용약관</string>
+    <string name="email_signup_term3">개인정보수집 및 이용동의</string>
+    <string name="email_signup_term4">특가, 쿠폰 등 이벤트 알림 이메일, 문자</string>
+    <string name="email_signup_choice">(선택)</string>
+    <string name="email_signup_terms_warning">이용약관, 개인정보처리방침에 동의해주세요.</string>
+    <string name="email_signup_isrecommended">친구에게 추천받고 오셨나요?(선택사항)</string>
+    <string name="email_signup_recommendcode">추천코드 입력</string>
+    <string name="email_signup_confirm">확인</string>
+    <string name="email_signup_complete">회원가입 완료</string>
+    <string name="email_signup_overlaped">이미 가입한 이메일입니다.\'이메일로 로그인\'으로 로그인해주세요.</string>
+    <string name="email_signup_invalid_emailform">이메일 형식이 올바르지 않습니다.</string>
+    <string name="email_signup_passwordconfirm_need">확인을 위해 비밀번호를 한 번 더 입력해주세요.</string>
+    <string name="email_signup_passwordconfirm_not_same">비밀번호가 일치하지 않습니다.</string>
+    <string name="email_signup_nickname_overlaped">사용 중인 별명입니다.</string>
+    <string name="email_signup_nickname_length_limit">별명을 2~15자 내로 입력해주세요.</string>
+    <string name="email_signup_warning_toast">필수 사항을 확인해주세요.</string>
+    <string name="email_signup_success_toast">회원가입 성공</string>
+    <string name="email_signup_error">오류</string>
+    <!--email_signin-->
+    <string name="email_signin_title">이메일 로그인</string>
+    <string name="email_signin_email">이메일</string>
+    <string name="email_signin_password">비밀번호</string>
+    <string name="email_signin_login">로그인하기</string>
+    <string name="email_signin_reset">비밀번호 재설정</string>
+    <string name="email_signin_need_email_toast">이메일을 입력해주세요.</string>
+    <string name="email_signin_need_password_toast">비밀번호를 입력해주세요.</string>
+    <string name="email_signin_success_toast">로그인 성공</string>
+    <!--kakao_signup-->
+    <string name="kakao_signup_try_fail">사용자 정보 요청 실패</string>
+    <string name="kakao_signup_try_success">사용자 정보 요청 성공</string>
+    <string name="kakao_signup_member_number_colon">회원번호:</string>
+    <string name="kakao_signup_email_colon">이메일:</string>
+    <string name="kakao_signup_nickname_colon">닉네임:</string>
+    <string name="kakao_signup_prifile_colon">프로필사진:</string>
+    <string name="kakao_signup_nickname_length_limit">별명을 2~15자 내로 입력해주세요.</string>
+    <string name="kakao_signup_complete_toast">회원가입 완료!</string>
+    <string name="kakao_signup_warning_toast">필수 사항을 확인해주세요.</string>
+    <string name="kakao_signup_title">추가 정보 입력</string>
+    <string name="kakao_signup_email">yosan1336@naver.com</string>
+    <string name="kakao_signup_nickname">별명(중복불가)</string>
+    <string name="kakao_signup_isrecommended">친구에게 추천받고 오셨나요?(선택사항)</string>
+    <string name="kakao_signup_recommend_code">추천코드 입력</string>
+    <string name="kakao_signup_confirm">확인</string>
+    <string name="kakao_signup_complete">회원가입 완료</string>
+    <!--loading_dialog2-->
+    <string name="loading_login">로그인 중입니다.</string>
+    <string name="loading_signup">회원가입 중입니다.</string>
+    <string name="loading_kakao">카카오와 연결중입니다.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="main_search">오늘의집 통합검색</string>
+    <string name="main_tab1">인기</string>
+    <string name="main_tab2">사진</string>
+    <string name="main_tab3">집들이</string>
+    <string name="main_tab4">노하우</string>
+    <string name="main_tab5">전문가집들이</string>
+    <string name="main_tab6">질문과답변</string>
+    <string name="main_bottom1">홈</string>
+    <string name="main_bottom2">스토어</string>
+    <string name="main_bottom3">인테리어시공</string>
+    <string name="main_bottom4">마이페이지</string>
+
+
+    <string name="basket_title">장바구니</string>
+    <string name="basket_more">상품 담으러 가기</string>
+    <string name="basket_choiceall">모두선택</string>
+    <string name="basket_selectdel">선택삭제</string>
+    <string name="basket_brand">아이닉샵 배송</string>
+    <string name="basket_name">[아이닉] [2만쿠폰] 최신형 차이슨 무선청소기 i20 엘리트/살균브러시 탑재</string>
+    <string name="basket_freedeliver">무료배송</string>
+    <string name="basket_line">|</string>
+    <string name="basket_normaldeliver">일반택배</string>
+    <string name="basket_color">엘리트 브라운</string>
+
+
+
+</resources>
